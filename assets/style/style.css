@@ -12,6 +12,7 @@ body {
     margin-right: 10%;
     margin-top: 3%;
     user-select: none;
+    text-decoration: none;
 }
 
 #head-name {
