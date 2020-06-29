@@ -1,3 +1,11 @@
+body {
+    /* background: #BCE784; */
+    /* background: #5DD39E; */
+    background: #348AA7;
+    /* background: #525174; */
+    /* background: #513B56; */
+}
+
 #header {
     width: 80%;
     margin-left: 10%;
@@ -29,7 +37,8 @@
 }
 
 .head-link:hover {
-    font-weight: 500;
+    color: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
 }
 
 #foot {
