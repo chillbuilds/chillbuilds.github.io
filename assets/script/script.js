@@ -3,6 +3,8 @@ $(window).on('resize', () => {
 })
 
 function marginCalc() {
+    let winWidth = $(window).width()
+    if(winWidth > 1200){
     let winHeight = $(window).height()
     let cardDivHeight = $('.home-card').height()*2
     let topMargin = (winHeight - cardDivHeight)/2
@@ -13,6 +15,10 @@ function marginCalc() {
 
     $('#body-container').attr('style', `margin-top: ${topMargin-48}px;`)
     $('.card-text').attr('style', `top: ${cardDivHeight/2-48}px`)
+    }
+    else{
+    $('.card-text').attr('style', `top: ${($('.home-card').height())-48}px`)
+    }
 }
 
 $('.home-card').on('click', function(){
