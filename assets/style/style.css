@@ -23,6 +23,16 @@ body {
     width: 49%;
 }
 
+.card-text {
+    position: absolute;
+    top: 100%;
+    padding: 6px 18px;
+    font-size: 24px;
+    background: rgba(0, 0, 0, 0.8);
+    color: rgba(255, 255, 255, .7);
+    /* color: #BCE784; */
+}
+
 .home-card:hover {
     cursor: pointer;
 }
