@@ -6,11 +6,11 @@ body {
     /* background: #513B56; */
 }
 
-#header {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 3%;
+/* #header {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
     user-select: none;
     text-decoration: none;
 }
@@ -40,11 +40,30 @@ body {
 .head-link:hover {
     color: rgba(0, 0, 0, 0.4);
     cursor: pointer;
+} */
+
+#head-name {
+    /* position: relative;
+    top: 1%; */
+    font-size: 32px;
+    font-weight: 600;
 }
 
-#foot {
+#body-container {
+    margin: 5%;
+    width: 90%;
+}
+
+.home-card {
     position: relative;
-    display: block;
-    text-align: center;
-    margin-top: 10%;
+    float: left;
+    width: 50%;
+}
+
+.home-card:hover {
+    cursor: pointer;
+}
+
+.home-card img {
+    width: 100%;
 }
