@@ -6,45 +6,7 @@ body {
     /* background: #513B56; */
 }
 
-/* #header {
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 1%;
-    user-select: none;
-    text-decoration: none;
-}
-
 #head-name {
-    position: relative;
-    float: left;
-    font-size: 32px;
-    font-weight: 600;
-}
-
-#head-links {
-    position: relative;
-    float: left;
-    margin-left: 2%;
-}
-
-.head-link {
-    position: relative;
-    float: left;
-    font-size: 28px;
-    font-weight: 400;
-    top: 5px;
-    padding: 0px 10px;
-}
-
-.head-link:hover {
-    color: rgba(0, 0, 0, 0.4);
-    cursor: pointer;
-} */
-
-#head-name {
-    /* position: relative;
-    top: 1%; */
     font-size: 32px;
     font-weight: 600;
     width: 100%;
