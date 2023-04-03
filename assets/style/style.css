@@ -68,6 +68,8 @@ a:hover {
 .card-title {
     font-size: 24px;
     padding: 6px;
+    padding-top: 14px;
+    margin-bottom: 20px;
     cursor: default;
 }
 
