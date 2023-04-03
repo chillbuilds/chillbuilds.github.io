@@ -1,4 +1,4 @@
-# chillbuilds.github.io
+# chillbuilds.com
 
 color palette
 #BCE784

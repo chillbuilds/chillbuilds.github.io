@@ -1,5 +1,5 @@
 $(window).on('resize', () => {
-    marginCalc()
+    // marginCalc()
 })
 
 function marginCalc() {
@@ -21,10 +21,10 @@ function marginCalc() {
     }
 }
 
-$('.home-card').on('click', function(){
-    window.location.href = `/${$(this).attr('id')}`;
-})
+// $('.home-card').on('click', function(){
+//     window.location.href = `/${$(this).attr('id')}`;
+// })
 
 $(document).ready(function() {
-    marginCalc()
+    // marginCalc()
 })
