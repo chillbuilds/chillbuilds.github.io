@@ -6,3 +6,6 @@ color palette
 #348AA7
 #525174
 #513B56
+
+needs:
+    project tags
