@@ -1,9 +1,9 @@
 let projectObj = [
     {
-        title: 'stamp',
+        title: 'casting silicone stamps',
         img_src: '',
-        body: '',
-        live: 'n',
+        body: `taking a look at custom printed packaging will cure you from wanting custom printed packaging. since I've been working with silicone, and got a new sla printer I've tried to solve the problem for myself in-house. it's not as absorbent as a rubber stamp, but I've been working on mixing in cornstarch to increase porousness in the final product.`,
+        live: 'y',
         tags: []
     },
     {
@@ -28,10 +28,10 @@ let projectObj = [
         tags: []
     },
     {
-        title: 'dabbling with flexAR and an implanted magnet',
+        title: 'flexAR and an implanted magnet',
         img_src: '',
-        body: '',
-        live: 'n',
+        body: `I've been subscribed to carl bugeja for years. he's great. go sub right now. a few months after I implanted a magnet (xg3 from dangerous things) in my right forearm he released flexar, so I picked a few up to play around with haptic feedback, and to prototype an internal speaker.`,
+        live: 'y',
         tags: []
     },
     {
@@ -70,10 +70,10 @@ let projectObj = [
         tags: []
     },
     {
-        title: 'electric skateboard',
+        title: 'electric longboard',
         img_src: '',
-        body: '',
-        live: 'n',
+        body: `with the rise of electric scooters/bikes/skateboards, there's nothing groundbreaking with this project, but i figured it could be helpful to share the parts and process with other folks interested in a home made option. I chose 2 rear motors (so I never have to push up a hill), belts to drive the wheels, a premade lipo pack, a cheap speed controller/receiver, and some 3d printed parts to mount it all under the deck.`,
+        live: 'y',
         tags: []
     },
     {
