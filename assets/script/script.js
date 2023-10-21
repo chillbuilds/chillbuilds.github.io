@@ -60,12 +60,6 @@ $(document).ready(function() {
     $('.read-more').on('click', function() {
         alert($(this).attr('project'))
     })
-    $('#head-name').on('click', function() {
-        projectCheck(null)
-    })
-    $('#mobile-head-name').on('click', function() {
-        projectCheck(null)
-    })
     $('.head-link').on('click', function() {
         if($(this).attr('id') == 'contact'){
             $('#body-container').attr('style', 'display: none;')
