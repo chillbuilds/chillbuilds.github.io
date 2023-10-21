@@ -1,7 +1,7 @@
 let projectObj = [
     {
         title: 'casting silicone stamps',
-        img_src: '',
+        img_src: 'silicone-stamps.jpg',
         body: `taking a look at custom printed packaging will cure you from wanting custom printed packaging. since I've been working with silicone, and got a new sla printer I've tried to solve the problem for myself in-house. it's not as absorbent as a rubber stamp, but I've been working on mixing in cornstarch to increase porousness in the final product.`,
         live: 'y',
         tags: [],
