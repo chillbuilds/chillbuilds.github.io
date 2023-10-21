@@ -1,9 +1,19 @@
-let projectCheck = () => {
-    projectObj.forEach(project => {
-        if(project.live == 'y'){
-            pushCard(project.title, project.body, project.img_src)
-        }
-    })
+let projectCheck = (filter) => {
+    if(filter == null){
+        $('#body-container').html('')
+        projectObj.forEach(project => {
+            if(project.live == 'y'){
+                pushCard(project.title, project.body, project.img_src)
+            }
+        })
+    }else{
+        $('#body-container').html('')
+        projectObj.forEach(project => {
+            if(project.live == 'y' && project.tags.includes(filter)){
+                pushCard(project.title, project.body, project.img_src)
+            }
+        })
+    }
 }
 
 let pushCard = (title, text, img_src) => {
@@ -41,11 +51,30 @@ $(window).on('resize', () => {
 })
 
 $(document).ready(function() {
-    projectCheck()
+
+    projectCheck(null)
+
     $('#mobile-menu-icon').on('click', function() {
         $('#mobile-head-links').slideToggle()
     })
     $('.read-more').on('click', function() {
         alert($(this).attr('project'))
+    })
+    $('.head-link').on('click', function() {
+        if($(this).attr('id') == 'contact'){
+            $('#body-container').attr('style', 'display: none;')
+            $('#contact-container').attr('style', 'display: inline-block;')
+        }else{
+            projectCheck($(this).attr('id'))
+        }
+    })
+    $('.mobile-head-link').on('click', function() {
+        if($(this).attr('id') == 'contact'){
+            $('#body-container').attr('style', 'display: none;')
+            $('#contact-container').attr('style', 'display: inline-block;')
+        }else{
+            projectCheck($(this).attr('id'))
+        }
+        $('#mobile-head-links').slideToggle()
     })
 })
