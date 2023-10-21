@@ -67,8 +67,18 @@ body {
     background: rgba(0,0,0,0.3);
 }
 
-.mobile-head-link {
+#mobile-head-links {
+    /* display: none; */
+    position: absolute;
+    padding-bottom: 8px;
+    top: 52px;
+    background: #348AA7;
+    width: 100%;
+}
 
+.mobile-head-link {
+    padding: 4px;
+    margin-left: 12px;
 }
 
 a {

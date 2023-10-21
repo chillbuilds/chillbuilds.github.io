@@ -41,7 +41,7 @@ $(window).on('resize', () => {
 $(document).ready(function() {
     projectCheck()
     $('#mobile-menu-icon').on('click', function() {
-        alert('open ze menu')
+        $('#mobile-head-links').slideToggle()
     })
     $('.read-more').on('click', function() {
         alert($(this).attr('project'))
