@@ -1,25 +1,31 @@
 let projectCheck = () => {
-    for(var i of projectObj){
-        if(i.live == 'y'){
-            pushCard(i.title, i.body, i.img_src)
+    projectObj.forEach(project => {
+        if(project.live == 'y'){
+            pushCard(project.title, project.body, project.img_src)
         }
-    }
+    })
 }
 
 let pushCard = (title, text, img_src) => {
+    // set default image
+    if(img_src == ''){
+        img_src = 'https://www.foodandwine.com/thmb/jldKZBYIoXJWXodRE9ut87K8Mag=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/crispy-comte-cheesburgers-FT-RECIPE0921-6166c6552b7148e8a8561f7765ddf20b.jpg'
+    }
     let template = `
     <div class="project-card">
         <div class="">
-            <img class="card-img" src="https://www.foodandwine.com/thmb/jldKZBYIoXJWXodRE9ut87K8Mag=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/crispy-comte-cheesburgers-FT-RECIPE0921-6166c6552b7148e8a8561f7765ddf20b.jpg">
+            <img class="card-img" src="${img_src}">
         </div>
         <div class="card-title">
             ${title}
         </div>
-        <div class="card-txt">
-            ${text}
+        <div class="card-txt-container">
+            <div class="card-txt">
+                ${text}
+            </div>
         </div>
-        <div class="read-more">
-            <a href="">read more.. </a>
+        <div project="${title}" class="read-more">
+            read more..
         </div>
     </div>`
     $('#body-container').append(template)
@@ -27,9 +33,17 @@ let pushCard = (title, text, img_src) => {
 
 
 $(window).on('resize', () => {
-    
+    if($(window).width() <= 1100){
+
+    }
 })
 
 $(document).ready(function() {
     projectCheck()
+    $('#mobile-menu-icon').on('click', function() {
+        alert('open ze menu')
+    })
+    $('.read-more').on('click', function() {
+        alert($(this).attr('project'))
+    })
 })
