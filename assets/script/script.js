@@ -65,6 +65,8 @@ $(document).ready(function() {
             $('#body-container').attr('style', 'display: none;')
             $('#contact-container').attr('style', 'display: inline-block;')
         }else{
+            $('#body-container').attr('style', 'display: inline-block;')
+            $('#contact-container').attr('style', 'display: none;')
             projectCheck($(this).attr('id'))
         }
     })
@@ -73,6 +75,8 @@ $(document).ready(function() {
             $('#body-container').attr('style', 'display: none;')
             $('#contact-container').attr('style', 'display: inline-block;')
         }else{
+            $('#body-container').attr('style', 'display: inline-block;')
+            $('#contact-container').attr('style', 'display: none;')
             projectCheck($(this).attr('id'))
         }
         $('#mobile-head-links').slideToggle()
