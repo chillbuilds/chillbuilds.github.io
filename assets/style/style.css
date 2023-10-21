@@ -70,10 +70,11 @@ body {
 #mobile-head-links {
     display: none;
     position: absolute;
-    padding-bottom: 8px;
+    padding-bottom: 6px;
     top: 52px;
     background: #348AA7;
     width: 100%;
+    border-bottom: 2px solid rgba(0,0,0,0.2);
 }
 
 .mobile-head-link {
