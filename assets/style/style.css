@@ -148,6 +148,29 @@ a:hover {
     cursor: pointer;
 }
 
+#footer {
+    position: relative;
+    top: -6px;
+    text-align: center;
+}
+
+#footer-icon-container {
+    position: relative;
+    float: right;
+    top: -9px;
+    padding-left: 8px;
+}
+
+.footer-icon {
+    width: 20px;
+    padding: 4px;
+}
+
+.footer-icon-img {
+    width: 100%;
+    opacity: 0.5;
+}
+
 @media (max-width: 1400px){
     #body-container {
         width: 750px;
