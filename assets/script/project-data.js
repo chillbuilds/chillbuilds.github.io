@@ -141,7 +141,7 @@ let projectObj = [
     },
     {
         title: 'automated terrarium',
-        img_src: '',
+        img_src: 'automated-terrarium.jpg',
         body: 'looking for an alternate use for a chipped beaker, and wanting a plant for my desk that requires little tlc, I came up with this automated terrarium. It uses an rtc module and a micro servo to open the lid on occasion, and a relay to switch the lights on and off. I feel like most of my projects prioritize function over form. this was a fun departure from that norm. bars.',
         live: 'y',
         tags: ['arduino', 'micro-controller', 'gardening'],

@@ -10,6 +10,8 @@ let pushCard = (title, text, img_src) => {
     // set default image
     if(img_src == ''){
         img_src = 'https://www.foodandwine.com/thmb/jldKZBYIoXJWXodRE9ut87K8Mag=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/crispy-comte-cheesburgers-FT-RECIPE0921-6166c6552b7148e8a8561f7765ddf20b.jpg'
+    }else{
+        img_src = './assets/images/project-images/' + img_src
     }
     let template = `
     <div class="project-card">
