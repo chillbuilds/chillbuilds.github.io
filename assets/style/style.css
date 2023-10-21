@@ -11,6 +11,7 @@ body {
 #header {
     position: fixed;
     width: 20%;
+    user-select: none;
 }
 
 #head-name {
@@ -31,6 +32,7 @@ body {
 }
 
 #mobile-header {
+    user-select: none;
     display: none;
     width: 110%;
     background: #348AA7;
@@ -122,6 +124,7 @@ a:hover {
 }
 
 .read-more {
+    user-select: none;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -266,5 +269,17 @@ a:hover {
     }
     .project-card {
         height: 196px;
+    }
+}
+
+@media (max-width: 375px){
+    #body-container {
+        margin-top: 16%;
+    }
+}
+
+@media (max-width: 325px){
+    #body-container {
+        margin-top: 18%;
     }
 }
