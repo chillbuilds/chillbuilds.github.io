@@ -22,6 +22,11 @@ body {
     text-decoration: none;
 }
 
+#head-name:hover {
+    color: #E6AF2E;
+    cursor: pointer;
+}
+
 #head-links {
     margin-top: 20px;
     padding-left: 12px;
@@ -54,6 +59,11 @@ body {
     font-weight: 600;
     padding: 12px;
     text-decoration: none;
+}
+
+#mobile-head-name:hover {
+    color: #E6AF2E;
+    cursor: pointer;
 }
 
 #mobile-menu-btn {
