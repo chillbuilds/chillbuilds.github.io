@@ -68,7 +68,7 @@ body {
 }
 
 #mobile-head-links {
-    /* display: none; */
+    display: none;
     position: absolute;
     padding-bottom: 8px;
     top: 52px;
