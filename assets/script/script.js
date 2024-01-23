@@ -1,3 +1,13 @@
+let storageStuff = () => {
+    let visitCheck = localStorage.getItem('visited')
+    if(visitCheck == null){
+        localStorage.setItem('visited', 'true')
+    }else{
+    }
+}
+
+storageStuff()
+
 let projectCheck = (filter) => {
     if(filter == null){
         $('#body-container').html('')
