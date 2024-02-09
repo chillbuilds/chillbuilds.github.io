@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>misc tools</title>
+    <link rel="stylesheet" href="../assets/style/style.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <div id="tool-container">
+        <div id="pricePerPrint">
+            <div style="font-weight: bold;">price per print:</div>
+            <div class="toolInput">
+                price per kg: <input type="number" placeholder="price per kilogram" id="price-per-kg">
+            </div>
+            <div class="toolInput">
+                print weight: <input type="number" placeholder="print weight" id="print-weight">
+            </div>
+            <div class="btn" id="pricePerPrintCalc">submit</div>
+            <div style="margin-top:4px; font-weight:bold;">
+                price: <span id="print-price">$0.00</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="../assets/script/jquery.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

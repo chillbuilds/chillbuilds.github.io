@@ -1,0 +1,25 @@
+input {
+    background: rgba(255,255,255,0.3);
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+}
+
+#tool-container {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.btn {
+    background: rgba(0,0,0,0.3);
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    user-select: none;
+    width: min-content;
+    margin: 6px;
+}
+
+.toolInput {
+    padding-top: 4px;
+}
