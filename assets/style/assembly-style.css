@@ -80,6 +80,7 @@ a:hover {
     
     #parts-description-list {
         width: 100%;
+        position: relative;
         margin-top: 24px;
     }
 
