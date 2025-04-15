@@ -62,6 +62,8 @@ a:hover {
     float: right;
     width: 18%;
     margin-left: 1%;
+    margin-top: 24px;
+    margin-bottom: 20px;
 }
 
 .margin-bottom-sm {
@@ -78,6 +80,7 @@ a:hover {
     }
     
     #parts-description-list {
+        text-align: left;
         width: 100%;
     }
 
