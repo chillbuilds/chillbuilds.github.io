@@ -30,10 +30,12 @@ a:hover {
 
 #parts-list {
     float: left;
+    text-align: left;
 }
 
 #print-instruction {
     float: right;
+    text-align: left;
 }
 
 .line-break {
