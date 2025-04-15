@@ -45,8 +45,56 @@ a:hover {
     border-bottom: rgba(0,0,0,0.2) solid 2px;
 }
 
+#parts-description {
+    position: relative;
+    float: left;
+    padding-top: 24px;
+}
+
+#parts-description-img {
+    position: relative;
+    float: left;
+    width: 80%;
+}
+
+#parts-description-list {
+    text-align: left;
+    position: relative;
+    float: right;
+    width: 18%;
+    margin-left: 1%;
+}
+
+.margin-bottom-sm {
+    margin-bottom: 8px;
+}
+
 @media (max-width: 1200px){
     .header-col {
         width: 100%;
+    }
+
+    #parts-description-img {
+        width: 100%;
+    }
+    
+    #parts-description-list {
+        width: 100%;
+        margin-top: 24px;
+    }
+
+    .part-description-item {
+        position: relative;
+        width: 50%;
+    }
+
+    .float-left {
+        position: relative;
+        float: left;
+    }
+
+    .float-right {
+        position: relative;
+        float: right;
     }
 }
