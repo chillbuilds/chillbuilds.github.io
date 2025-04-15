@@ -22,18 +22,18 @@ a:hover {
     color: #E6AF2E;
 }
 
-#assembly-instruction {
+.header-col {
     position: relative;
-    float: left;
     width: 50%;
     text-align: left;
 }
 
+#parts-list {
+    float: left;
+}
+
 #print-instruction {
-    position: relative;
     float: right;
-    width: 50%;
-    text-align: left;
 }
 
 .line-break {
@@ -41,4 +41,10 @@ a:hover {
     position: relative;
     float: left;
     border-bottom: rgba(0,0,0,0.2) solid 2px;
+}
+
+@media (max-width: 1200px){
+    .header-col {
+        width: 100%;
+    }
 }
