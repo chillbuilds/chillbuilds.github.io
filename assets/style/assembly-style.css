@@ -48,7 +48,6 @@ a:hover {
 #parts-description {
     position: relative;
     float: left;
-    padding-top: 24px;
 }
 
 #parts-description-img {
@@ -80,8 +79,6 @@ a:hover {
     
     #parts-description-list {
         width: 100%;
-        position: relative;
-        margin-top: 24px;
     }
 
     .part-description-item {
