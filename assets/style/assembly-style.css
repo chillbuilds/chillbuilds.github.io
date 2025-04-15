@@ -85,6 +85,7 @@ a:hover {
     }
 
     .part-description-item {
+        text-align: left;
         position: relative;
         width: 50%;
     }
