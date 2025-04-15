@@ -23,6 +23,11 @@ a:hover {
     color: #E6AF2E;
 }
 
+#header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 .header-col {
     position: relative;
     width: 50%;
@@ -82,7 +87,6 @@ a:hover {
         text-align: left;
         width: 100%;
         margin-top: 24px;
-        margin-bottom: 20px;
     }
 
     .part-description-item {
