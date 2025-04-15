@@ -1,0 +1,44 @@
+body {
+    background: #348AA7;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #363635;
+}
+
+#body-container {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 4%;
+}
+
+a {
+    text-decoration: none;
+    text-decoration: underline;
+    font-weight: 600;
+    color: #363635;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #E6AF2E;
+}
+
+#assembly-instruction {
+    position: relative;
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+#print-instruction {
+    position: relative;
+    float: right;
+    width: 50%;
+    text-align: left;
+}
+
+.line-break {
+    width: 100%;
+    position: relative;
+    float: left;
+    border-bottom: rgba(0,0,0,0.2) solid 2px;
+}
